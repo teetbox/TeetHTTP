@@ -35,6 +35,10 @@
 		C90A5A8B209AA5D200DEA33E /* HttpResponseAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A8A209AA5D200DEA33E /* HttpResponseAPITests.swift */; };
 		C90A5A8D209AA61600DEA33E /* HttpRequestAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A8C209AA61600DEA33E /* HttpRequestAPITests.swift */; };
 		C90A5A8F209AA70300DEA33E /* TeetHTTPAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A8E209AA70300DEA33E /* TeetHTTPAPITests.swift */; };
+		C93CDDE2209AB14200C133A9 /* ReqResTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93CDDE1209AB14200C133A9 /* ReqResTests.swift */; };
+		C93CDDE4209AB1BC00C133A9 /* HttpbinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93CDDE3209AB1BB00C133A9 /* HttpbinTests.swift */; };
+		C93CDDE6209AB1FB00C133A9 /* JSONPlaceholderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93CDDE5209AB1FB00C133A9 /* JSONPlaceholderTests.swift */; };
+		C93CDDE8209AB25E00C133A9 /* DownloadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93CDDE7209AB25E00C133A9 /* DownloadTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +83,10 @@
 		C90A5A8A209AA5D200DEA33E /* HttpResponseAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpResponseAPITests.swift; sourceTree = "<group>"; };
 		C90A5A8C209AA61600DEA33E /* HttpRequestAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestAPITests.swift; sourceTree = "<group>"; };
 		C90A5A8E209AA70300DEA33E /* TeetHTTPAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeetHTTPAPITests.swift; sourceTree = "<group>"; };
+		C93CDDE1209AB14200C133A9 /* ReqResTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReqResTests.swift; sourceTree = "<group>"; };
+		C93CDDE3209AB1BB00C133A9 /* HttpbinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpbinTests.swift; sourceTree = "<group>"; };
+		C93CDDE5209AB1FB00C133A9 /* JSONPlaceholderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONPlaceholderTests.swift; sourceTree = "<group>"; };
+		C93CDDE7209AB25E00C133A9 /* DownloadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +142,7 @@
 				35F8979D208A1A7900EF3F62 /* Info.plist */,
 				C90A5A83209AA50600DEA33E /* Public */,
 				C90A5A5C209A9B2B00DEA33E /* Internal */,
+				C93CDDE0209AB0D300C133A9 /* Integration */,
 			);
 			path = TeetHTTPTests;
 			sourceTree = "<group>";
@@ -183,6 +192,17 @@
 				C90A5A84209AA52C00DEA33E /* MultiPartContentAPITests.swift */,
 			);
 			path = Public;
+			sourceTree = "<group>";
+		};
+		C93CDDE0209AB0D300C133A9 /* Integration */ = {
+			isa = PBXGroup;
+			children = (
+				C93CDDE1209AB14200C133A9 /* ReqResTests.swift */,
+				C93CDDE3209AB1BB00C133A9 /* HttpbinTests.swift */,
+				C93CDDE5209AB1FB00C133A9 /* JSONPlaceholderTests.swift */,
+				C93CDDE7209AB25E00C133A9 /* DownloadTests.swift */,
+			);
+			path = Integration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,15 +336,19 @@
 				C90A5A8F209AA70300DEA33E /* TeetHTTPAPITests.swift in Sources */,
 				C90A5A7E209AA2BA00DEA33E /* HttpResponseTests.swift in Sources */,
 				C90A5A8B209AA5D200DEA33E /* HttpResponseAPITests.swift in Sources */,
+				C93CDDE6209AB1FB00C133A9 /* JSONPlaceholderTests.swift in Sources */,
 				C90A5A87209AA56500DEA33E /* HttpErrorAPITests.swift in Sources */,
 				C90A5A89209AA59A00DEA33E /* HttpTaskAPITests.swift in Sources */,
 				C90A5A80209AA2F000DEA33E /* HttpRequestTests.swift in Sources */,
 				C90A5A62209A9CF700DEA33E /* MultiPartContentTests.swift in Sources */,
 				C90A5A76209AA11100DEA33E /* URLEncodingTests.swift in Sources */,
+				C93CDDE8209AB25E00C133A9 /* DownloadTests.swift in Sources */,
 				C90A5A7A209AA20C00DEA33E /* HttpErrorTests.swift in Sources */,
 				C90A5A85209AA52C00DEA33E /* MultiPartContentAPITests.swift in Sources */,
 				C90A5A7C209AA24300DEA33E /* HttpTaskTests.swift in Sources */,
 				C90A5A82209AA32B00DEA33E /* TeetHTTPTests.swift in Sources */,
+				C93CDDE2209AB14200C133A9 /* ReqResTests.swift in Sources */,
+				C93CDDE4209AB1BC00C133A9 /* HttpbinTests.swift in Sources */,
 				C90A5A8D209AA61600DEA33E /* HttpRequestAPITests.swift in Sources */,
 				C90A5A78209AA1E100DEA33E /* HttpStatusTests.swift in Sources */,
 				C90A5A74209AA0D700DEA33E /* SessionManagerTests.swift in Sources */,
