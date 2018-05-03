@@ -8,8 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		35F89797208A1A7900EF3F62 /* TeetHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F8978D208A1A7900EF3F62 /* TeetHTTP.framework */; };
-		35F8979C208A1A7900EF3F62 /* TeetHTTPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F8979B208A1A7900EF3F62 /* TeetHTTPTests.swift */; };
 		35F8979E208A1A7900EF3F62 /* TeetHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F89790208A1A7900EF3F62 /* TeetHTTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C90A5A5B209A9A4600DEA33E /* DataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A5A209A9A4600DEA33E /* DataStructure.swift */; };
+		C90A5A5E209A9B5900DEA33E /* DataStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A5D209A9B5900DEA33E /* DataStructureTests.swift */; };
+		C90A5A60209A9CC800DEA33E /* MultiPartContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A5F209A9CC800DEA33E /* MultiPartContent.swift */; };
+		C90A5A62209A9CF700DEA33E /* MultiPartContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A61209A9CF700DEA33E /* MultiPartContentTests.swift */; };
+		C90A5A64209A9DF500DEA33E /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A63209A9DF500DEA33E /* SessionManager.swift */; };
+		C90A5A66209A9E2600DEA33E /* URLEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A65209A9E2600DEA33E /* URLEncoding.swift */; };
+		C90A5A68209A9E6800DEA33E /* HttpStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A67209A9E6800DEA33E /* HttpStatus.swift */; };
+		C90A5A6A209A9E8900DEA33E /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A69209A9E8900DEA33E /* HttpError.swift */; };
+		C90A5A6C209A9E9E00DEA33E /* HttpTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A6B209A9E9E00DEA33E /* HttpTask.swift */; };
+		C90A5A6E209A9EB900DEA33E /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A6D209A9EB900DEA33E /* HttpResponse.swift */; };
+		C90A5A70209A9ED200DEA33E /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A6F209A9ED200DEA33E /* HttpRequest.swift */; };
+		C90A5A72209A9F0F00DEA33E /* TeetHTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A71209A9F0F00DEA33E /* TeetHTTP.swift */; };
+		C90A5A74209AA0D700DEA33E /* SessionManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A73209AA0D700DEA33E /* SessionManagerTests.swift */; };
+		C90A5A76209AA11100DEA33E /* URLEncodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A75209AA11100DEA33E /* URLEncodingTests.swift */; };
+		C90A5A78209AA1E100DEA33E /* HttpStatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A77209AA1E100DEA33E /* HttpStatusTests.swift */; };
+		C90A5A7A209AA20C00DEA33E /* HttpErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A79209AA20C00DEA33E /* HttpErrorTests.swift */; };
+		C90A5A7C209AA24300DEA33E /* HttpTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A7B209AA24300DEA33E /* HttpTaskTests.swift */; };
+		C90A5A7E209AA2BA00DEA33E /* HttpResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A7D209AA2BA00DEA33E /* HttpResponseTests.swift */; };
+		C90A5A80209AA2F000DEA33E /* HttpRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A7F209AA2F000DEA33E /* HttpRequestTests.swift */; };
+		C90A5A82209AA32B00DEA33E /* TeetHTTPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A81209AA32B00DEA33E /* TeetHTTPTests.swift */; };
+		C90A5A85209AA52C00DEA33E /* MultiPartContentAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A84209AA52C00DEA33E /* MultiPartContentAPITests.swift */; };
+		C90A5A87209AA56500DEA33E /* HttpErrorAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A86209AA56500DEA33E /* HttpErrorAPITests.swift */; };
+		C90A5A89209AA59A00DEA33E /* HttpTaskAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A88209AA59A00DEA33E /* HttpTaskAPITests.swift */; };
+		C90A5A8B209AA5D200DEA33E /* HttpResponseAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A8A209AA5D200DEA33E /* HttpResponseAPITests.swift */; };
+		C90A5A8D209AA61600DEA33E /* HttpRequestAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A8C209AA61600DEA33E /* HttpRequestAPITests.swift */; };
+		C90A5A8F209AA70300DEA33E /* TeetHTTPAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A5A8E209AA70300DEA33E /* TeetHTTPAPITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +52,33 @@
 		35F89790208A1A7900EF3F62 /* TeetHTTP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeetHTTP.h; sourceTree = "<group>"; };
 		35F89791208A1A7900EF3F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35F89796208A1A7900EF3F62 /* TeetHTTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeetHTTPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		35F8979B208A1A7900EF3F62 /* TeetHTTPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeetHTTPTests.swift; sourceTree = "<group>"; };
 		35F8979D208A1A7900EF3F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90A5A5A209A9A4600DEA33E /* DataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructure.swift; sourceTree = "<group>"; };
+		C90A5A5D209A9B5900DEA33E /* DataStructureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructureTests.swift; sourceTree = "<group>"; };
+		C90A5A5F209A9CC800DEA33E /* MultiPartContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPartContent.swift; sourceTree = "<group>"; };
+		C90A5A61209A9CF700DEA33E /* MultiPartContentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPartContentTests.swift; sourceTree = "<group>"; };
+		C90A5A63209A9DF500DEA33E /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		C90A5A65209A9E2600DEA33E /* URLEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncoding.swift; sourceTree = "<group>"; };
+		C90A5A67209A9E6800DEA33E /* HttpStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpStatus.swift; sourceTree = "<group>"; };
+		C90A5A69209A9E8900DEA33E /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
+		C90A5A6B209A9E9E00DEA33E /* HttpTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpTask.swift; sourceTree = "<group>"; };
+		C90A5A6D209A9EB900DEA33E /* HttpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpResponse.swift; sourceTree = "<group>"; };
+		C90A5A6F209A9ED200DEA33E /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		C90A5A71209A9F0F00DEA33E /* TeetHTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeetHTTP.swift; sourceTree = "<group>"; };
+		C90A5A73209AA0D700DEA33E /* SessionManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManagerTests.swift; sourceTree = "<group>"; };
+		C90A5A75209AA11100DEA33E /* URLEncodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncodingTests.swift; sourceTree = "<group>"; };
+		C90A5A77209AA1E100DEA33E /* HttpStatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpStatusTests.swift; sourceTree = "<group>"; };
+		C90A5A79209AA20C00DEA33E /* HttpErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpErrorTests.swift; sourceTree = "<group>"; };
+		C90A5A7B209AA24300DEA33E /* HttpTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpTaskTests.swift; sourceTree = "<group>"; };
+		C90A5A7D209AA2BA00DEA33E /* HttpResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpResponseTests.swift; sourceTree = "<group>"; };
+		C90A5A7F209AA2F000DEA33E /* HttpRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestTests.swift; sourceTree = "<group>"; };
+		C90A5A81209AA32B00DEA33E /* TeetHTTPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeetHTTPTests.swift; sourceTree = "<group>"; };
+		C90A5A84209AA52C00DEA33E /* MultiPartContentAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPartContentAPITests.swift; sourceTree = "<group>"; };
+		C90A5A86209AA56500DEA33E /* HttpErrorAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpErrorAPITests.swift; sourceTree = "<group>"; };
+		C90A5A88209AA59A00DEA33E /* HttpTaskAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpTaskAPITests.swift; sourceTree = "<group>"; };
+		C90A5A8A209AA5D200DEA33E /* HttpResponseAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpResponseAPITests.swift; sourceTree = "<group>"; };
+		C90A5A8C209AA61600DEA33E /* HttpRequestAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestAPITests.swift; sourceTree = "<group>"; };
+		C90A5A8E209AA70300DEA33E /* TeetHTTPAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeetHTTPAPITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +123,7 @@
 			children = (
 				35F89790208A1A7900EF3F62 /* TeetHTTP.h */,
 				35F89791208A1A7900EF3F62 /* Info.plist */,
+				C90A5A59209A99EF00DEA33E /* Source */,
 			);
 			path = TeetHTTP;
 			sourceTree = "<group>";
@@ -80,10 +131,58 @@
 		35F8979A208A1A7900EF3F62 /* TeetHTTPTests */ = {
 			isa = PBXGroup;
 			children = (
-				35F8979B208A1A7900EF3F62 /* TeetHTTPTests.swift */,
 				35F8979D208A1A7900EF3F62 /* Info.plist */,
+				C90A5A83209AA50600DEA33E /* Public */,
+				C90A5A5C209A9B2B00DEA33E /* Internal */,
 			);
 			path = TeetHTTPTests;
+			sourceTree = "<group>";
+		};
+		C90A5A59209A99EF00DEA33E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C90A5A71209A9F0F00DEA33E /* TeetHTTP.swift */,
+				C90A5A6F209A9ED200DEA33E /* HttpRequest.swift */,
+				C90A5A6D209A9EB900DEA33E /* HttpResponse.swift */,
+				C90A5A6B209A9E9E00DEA33E /* HttpTask.swift */,
+				C90A5A69209A9E8900DEA33E /* HttpError.swift */,
+				C90A5A67209A9E6800DEA33E /* HttpStatus.swift */,
+				C90A5A65209A9E2600DEA33E /* URLEncoding.swift */,
+				C90A5A63209A9DF500DEA33E /* SessionManager.swift */,
+				C90A5A5F209A9CC800DEA33E /* MultiPartContent.swift */,
+				C90A5A5A209A9A4600DEA33E /* DataStructure.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C90A5A5C209A9B2B00DEA33E /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				C90A5A81209AA32B00DEA33E /* TeetHTTPTests.swift */,
+				C90A5A7F209AA2F000DEA33E /* HttpRequestTests.swift */,
+				C90A5A7D209AA2BA00DEA33E /* HttpResponseTests.swift */,
+				C90A5A7B209AA24300DEA33E /* HttpTaskTests.swift */,
+				C90A5A79209AA20C00DEA33E /* HttpErrorTests.swift */,
+				C90A5A77209AA1E100DEA33E /* HttpStatusTests.swift */,
+				C90A5A75209AA11100DEA33E /* URLEncodingTests.swift */,
+				C90A5A73209AA0D700DEA33E /* SessionManagerTests.swift */,
+				C90A5A61209A9CF700DEA33E /* MultiPartContentTests.swift */,
+				C90A5A5D209A9B5900DEA33E /* DataStructureTests.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		C90A5A83209AA50600DEA33E /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				C90A5A8E209AA70300DEA33E /* TeetHTTPAPITests.swift */,
+				C90A5A8C209AA61600DEA33E /* HttpRequestAPITests.swift */,
+				C90A5A8A209AA5D200DEA33E /* HttpResponseAPITests.swift */,
+				C90A5A88209AA59A00DEA33E /* HttpTaskAPITests.swift */,
+				C90A5A86209AA56500DEA33E /* HttpErrorAPITests.swift */,
+				C90A5A84209AA52C00DEA33E /* MultiPartContentAPITests.swift */,
+			);
+			path = Public;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +247,7 @@
 				TargetAttributes = {
 					35F8978C208A1A7900EF3F62 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 					35F89795208A1A7900EF3F62 = {
@@ -196,6 +296,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90A5A60209A9CC800DEA33E /* MultiPartContent.swift in Sources */,
+				C90A5A5B209A9A4600DEA33E /* DataStructure.swift in Sources */,
+				C90A5A66209A9E2600DEA33E /* URLEncoding.swift in Sources */,
+				C90A5A6C209A9E9E00DEA33E /* HttpTask.swift in Sources */,
+				C90A5A6E209A9EB900DEA33E /* HttpResponse.swift in Sources */,
+				C90A5A72209A9F0F00DEA33E /* TeetHTTP.swift in Sources */,
+				C90A5A70209A9ED200DEA33E /* HttpRequest.swift in Sources */,
+				C90A5A64209A9DF500DEA33E /* SessionManager.swift in Sources */,
+				C90A5A6A209A9E8900DEA33E /* HttpError.swift in Sources */,
+				C90A5A68209A9E6800DEA33E /* HttpStatus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +313,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F8979C208A1A7900EF3F62 /* TeetHTTPTests.swift in Sources */,
+				C90A5A8F209AA70300DEA33E /* TeetHTTPAPITests.swift in Sources */,
+				C90A5A7E209AA2BA00DEA33E /* HttpResponseTests.swift in Sources */,
+				C90A5A8B209AA5D200DEA33E /* HttpResponseAPITests.swift in Sources */,
+				C90A5A87209AA56500DEA33E /* HttpErrorAPITests.swift in Sources */,
+				C90A5A89209AA59A00DEA33E /* HttpTaskAPITests.swift in Sources */,
+				C90A5A80209AA2F000DEA33E /* HttpRequestTests.swift in Sources */,
+				C90A5A62209A9CF700DEA33E /* MultiPartContentTests.swift in Sources */,
+				C90A5A76209AA11100DEA33E /* URLEncodingTests.swift in Sources */,
+				C90A5A7A209AA20C00DEA33E /* HttpErrorTests.swift in Sources */,
+				C90A5A85209AA52C00DEA33E /* MultiPartContentAPITests.swift in Sources */,
+				C90A5A7C209AA24300DEA33E /* HttpTaskTests.swift in Sources */,
+				C90A5A82209AA32B00DEA33E /* TeetHTTPTests.swift in Sources */,
+				C90A5A8D209AA61600DEA33E /* HttpRequestAPITests.swift in Sources */,
+				C90A5A78209AA1E100DEA33E /* HttpStatusTests.swift in Sources */,
+				C90A5A74209AA0D700DEA33E /* SessionManagerTests.swift in Sources */,
+				C90A5A5E209A9B5900DEA33E /* DataStructureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +459,7 @@
 		35F897A2208A1A7900EF3F62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -342,10 +468,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TeetHTTP/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teetbox.TeetHTTP;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,6 +482,7 @@
 		35F897A3208A1A7900EF3F62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -362,6 +491,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TeetHTTP/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teetbox.TeetHTTP;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -374,6 +504,7 @@
 		35F897A5208A1A7900EF3F62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TeetHTTPTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -387,6 +518,7 @@
 		35F897A6208A1A7900EF3F62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TeetHTTPTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
