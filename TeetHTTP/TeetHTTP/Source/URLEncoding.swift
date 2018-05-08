@@ -12,11 +12,19 @@ struct URLEncoding {
     
     static func encode(base: String, path: String, method: HttpMethod, params: [String: Any]?) throws -> URL {
         
-        guard let url = URL(string: base + path) else {
+        var urlString = base + path
+        
+        if urlString.contains(" ") {
+            if let encodedString = urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) {
+                urlString = encodedString
+            }
+        }
+        
+        guard let url = URL(string: urlString) else {
             throw URLEncodingError.invalidURL(base + path)
         }
         
-        guard let urlComponents = URLComponents(string: base + path) else {
+        guard let urlComponents = URLComponents(string: urlString) else {
             throw URLEncodingError.invalidURL(base + path)
         }
         
