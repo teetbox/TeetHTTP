@@ -183,4 +183,15 @@ class TeetHTTPAPITests: XCTestCase {
         }
     }
     
+    func testTimeout() {
+        XCTAssertEqual(sut.timeoutForRequest, 60.0)
+        XCTAssertEqual(sut.timeoutForResource, 7 * 24 * 60.0)
+        
+        sut.timeoutForRequest = 15.0
+        sut.timeoutForResource = 15.0
+        
+        XCTAssertEqual(sut.timeoutForRequest, 15.0)
+        XCTAssertEqual(sut.timeoutForResource, 15.0)
+    }
+    
 }
