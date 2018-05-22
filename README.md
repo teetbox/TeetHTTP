@@ -1,5 +1,5 @@
 # TeetHTTP
-A swift framework makes HTTP request much more easy
+A swift framework makes HTTP request much more easy.
 
 ## Features
 - HTTP GET, POST, PUT, DELETE request
@@ -232,12 +232,13 @@ let file3 = http.fileRequest(downloadPath: "/path3", completed: { _, _ in })
 (file ||| file2 ||| file3).go()
 ```
 ## Installation
-Using [Carthage](https://github.com/Carthage/Carthage)
+### Carthage
 ```
 github "teetbox/TeetHTTP"
 ```
 
-## Requirements
+## Platform
+- iOS 10+
 
 ## License
 TeetHTTP is released under MIT license.
